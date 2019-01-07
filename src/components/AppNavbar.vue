@@ -4,7 +4,7 @@
             <a class="navbar-brand" href="/">conduit</a>
             <ul class="nav navbar-nav pull-xs-right">
                 <li class="nav-item">
-                    <!-- Add "active" class when you're on that page" -->
+                    <!-- Add "active" class when you"re on that page" -->
                     <a class="nav-link active" href="">Home</a>
                 </li>
                 <li class="nav-item">
@@ -27,6 +27,6 @@
 
 <script>
 export default {
-    name: 'AppNavbar'
+    name: "AppNavbar"
 }
 </script>
