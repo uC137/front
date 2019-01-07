@@ -48,7 +48,7 @@
         public email = "";
         public password = "";
 
-        public login() {
+        login() {
             users.login({
                 email: this.email,
                 password: this.password

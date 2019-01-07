@@ -14,10 +14,11 @@ class UsersModule extends VuexModule {
     public profile?: Profile | null = null;
 
     @Mutation
-    public setUser(user: User) {
-        this.user = user;
-    }
+    setUser(user: User) { this.user = user; }
 
+    get username() {
+        return this.user && this.user.username || null;
+    }
     @Action({commit: "setUser"})
     public async login(userSubmit: UserSubmit) {
         return await loginUser(userSubmit);
